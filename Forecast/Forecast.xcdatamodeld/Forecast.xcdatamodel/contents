@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="untitled.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="OvercastEpisode" representedClassName="OvercastEpisode" syncable="YES">
+        <attribute name="audioFileURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasBegunPlaying" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isInLibrary" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overcastURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permalinkURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekBackwardValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekForwardValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shouldDisplay" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeRemaing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="podcast" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OvercastPodcast" inverseName="episodes" inverseEntity="OvercastPodcast" syncable="YES"/>
+    </entity>
+    <entity name="OvercastPodcast" representedClassName="OvercastPodcast" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="informaiton" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isInLibrary" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastModified" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overcastURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shouldDisplay" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OvercastEpisode" inverseName="podcast" inverseEntity="OvercastEpisode" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="OvercastEpisode" positionX="-54" positionY="-9" width="128" height="300"/>
+        <element name="OvercastPodcast" positionX="-36" positionY="9" width="128" height="240"/>
+    </elements>
 </model>
