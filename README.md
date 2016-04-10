@@ -1,4 +1,12 @@
-This software is a work in progress.
+
+
+#Forcast
+
+<img src="https://dl.dropboxusercontent.com/u/14076986/Forcast_Icon.png" style="width:200px;"/>
+### This software is a work in progress.
+
+-
+
 This is a hobby project of mine to learn Cocoa for OSX. If anyone would like to contribute or would like to request a feature/bug fix please feel free to contact me at ciankm88@gmail.com
 
 Forecast is an Unofficial Mac client for the overcast iOS app.
