@@ -2,7 +2,7 @@
 
 #Forcast
 
-<img src="https://dl.dropboxusercontent.com/u/14076986/Forcast_Icon.png" style="width:200px;"/>
+<img src="https://dl.dropboxusercontent.com/u/14076986/Forcast_Icon.png" width="200" height="200" />
 ### This software is a work in progress.
 
 -
