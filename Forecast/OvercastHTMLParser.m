@@ -143,10 +143,12 @@
 
 +(NSDictionary *)parseTimeRemainingString:(NSString*)timeRemainingString
 {
+    @try {
     NSMutableDictionary* dict = [[NSMutableDictionary alloc] init];
     NSString* string = [timeRemainingString cleanString];
     NSRange range = [string rangeOfString:@" • "];
-    dict[EPISODE_POST_DATE] = [string substringToIndex:range.location];
+    
+    dict[EPISODE_POST_DATE] = range.location != NSNotFound ? [string substringToIndex:range.location] : nil;
     NSUInteger start = range.location + 3;
     string = [string substringFromIndex:start];
     dict[EPISODE_HAS_BEGUN] = [string containsString:@"remaining"] ? @"YES" : @"NO";
@@ -156,9 +158,12 @@
     string = range.length != 0 ? [string substringToIndex:range.location] : string;
 
     dict[EPISODE_TIME_REMAINING] = string;
-    
-    
     return [dict copy];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"%@", timeRemainingString);
+    }
+    return nil;
 }
 
 #pragma mark - Podcasts from main page
