@@ -24,7 +24,6 @@
 		669ED72A5B44902AC667821FF52391CE /* HTMLTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0920D184282C3AFEBA58486D16C8DC5E /* HTMLTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66BF2BAE7344FD10EA354C06158E708F /* HTMLSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 45399E80A617E2D25FF8C8B15C393035 /* HTMLSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6752CD10A6A89EFCFBF1174688A0F3F2 /* HTMLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6D6848164C82CA8E6D16E59B43FA86 /* HTMLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D795249D13B8494012722F5E08B7492 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
 		79AD2D5F251C14908F273359E8B46AAF /* HTMLPreprocessedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652EFF77DF05124BED8A47B7705933E /* HTMLPreprocessedInputStream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7A07330EE381A6E441E5B101477DF182 /* HTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C11FB113AA736A5024A4BEF448488C11 /* HTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83FE41A88ACB88A2AA58F3173C7815A8 /* HTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 256C43DCC1A02CBD50933A2214534998 /* HTMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,11 +31,13 @@
 		921DFA1F4AB193F96218B1082175714A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
 		9310E8C6163C37AEC9B8772826BC2E53 /* HTMLSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D51577C5C2D53A938A83EA3725FF67DB /* HTMLSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		953870BDC3D0A09A739FDCF49FBDFD8C /* HTMLTreeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC16B8E0B48DB7CD0137B008A0384E0 /* HTMLTreeEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97AAFBD02CB25688C79451EF8BFFB208 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
 		9A049B26B146AD30D963E877D58C436D /* NSString+HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC7A410F516D9A7492DEAC0967C5F8 /* NSString+HTMLEntities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9B6E7997A0F28232180CB057C8C5665D /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB21EDDEB78062F13D68F406DB7A4D3 /* HTMLString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9DAFA08BA7BE404EFFB2CCD396C22D23 /* HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = D57A51B810385674C26A14ECFEFA73CF /* HTMLEntities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A8C3C1E94F7820D528A29C9D05C8B1F0 /* HTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC20330C198B93F1E20CA7BEC45DD35 /* HTMLElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AA04BC479C59828DE29438C6B99954EA /* HTMLQuirksMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E8FEDDFB2B92F45A0C77AD4444490F /* HTMLQuirksMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5BC386974233945C220D29104FD13A1 /* Pods-Forecast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCA07E394C250DB327725897CB3FC2 /* Pods-Forecast-dummy.m */; };
 		B6C01596DA2891EC28B891DE4F74155A /* HTMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1746D06388BAE2F70FDE8FAF12142D /* HTMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2188017524F3330422B6E22763533F8 /* HTMLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9906B103AB71FB845EDF1F721A82C159 /* HTMLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CAE34261735FDC0ACD9C2AB0E8FEEE77 /* HTMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F43A92765A324027A89C763377A5799 /* HTMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,13 +48,12 @@
 		E3653D706A29780C8D6108ACDCBD9A32 /* HTMLString.h in Headers */ = {isa = PBXBuildFile; fileRef = E08CE347829816E7BEE85B708DE90132 /* HTMLString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED619751D9A5A0E7299C65F4810A475E /* HTMLSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1745B41F079C921E60F77BF30E4C3F86 /* HTMLSelector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EF7EBA710CED35452A6EAFF98FEF4D6C /* HTMLTokenizerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACCD100145739E32B610C601CE42559 /* HTMLTokenizerState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F039A939470B3351B9F63FC997C6ABF4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
 		F30A311597639922EEB9454DBEF3489C /* HTMLComment.m in Sources */ = {isa = PBXBuildFile; fileRef = D9665135CFAD7BFDAB1BA7678C685B03 /* HTMLComment.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FF0170BA5CA7E257EEB73847E37296D6 /* HTMLOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 749764AA6A6F7223C4F71AF8804B3795 /* HTMLOrderedDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		73A4F2A2B4CD2B0974119BE7718BBE13 /* PBXContainerItemProxy */ = {
+		470EDF36B9251EA1CF06ABE6E05558CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -64,61 +64,69 @@
 
 /* Begin PBXFileReference section */
 		00E993BEE954AB98A27154F21FEEA7D3 /* HTMLComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLComment.h; path = Code/HTMLComment.h; sourceTree = "<group>"; };
+		020DE4FD606C3D94D50ADEE85F05D583 /* Pods-Forecast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Forecast-frameworks.sh"; sourceTree = "<group>"; };
 		04C2A8DA915909E75E6BD21CF6797C17 /* HTMLDocumentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLDocumentType.m; path = Code/HTMLDocumentType.m; sourceTree = "<group>"; };
 		0920D184282C3AFEBA58486D16C8DC5E /* HTMLTokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLTokenizer.h; path = Code/HTMLTokenizer.h; sourceTree = "<group>"; };
 		0ACCD100145739E32B610C601CE42559 /* HTMLTokenizerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLTokenizerState.h; path = Code/HTMLTokenizerState.h; sourceTree = "<group>"; };
-		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		1745B41F079C921E60F77BF30E4C3F86 /* HTMLSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLSelector.m; path = Code/HTMLSelector.m; sourceTree = "<group>"; };
 		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		1D1746D06388BAE2F70FDE8FAF12142D /* HTMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLElement.h; path = Code/HTMLElement.h; sourceTree = "<group>"; };
-		1EF0148711C56A83ED7FC6E7F1CB6F9F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2273A28D1E7884A08D0BD35BBCE6F42D /* Pods-Forecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Forecast.debug.xcconfig"; sourceTree = "<group>"; };
 		256C43DCC1A02CBD50933A2214534998 /* HTMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLDocument.h; path = Code/HTMLDocument.h; sourceTree = "<group>"; };
-		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		2CCB1A6C808F07E9564125EF516CD756 /* HTMLTextNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLTextNode.h; path = Code/HTMLTextNode.h; sourceTree = "<group>"; };
 		31EB493F1CB8235D8FD58B6F1B166170 /* HTMLTreeEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLTreeEnumerator.h; path = Code/HTMLTreeEnumerator.h; sourceTree = "<group>"; };
 		36AB13127A66A2C36DAF2A5D3815A663 /* HTMLSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLSerialization.h; path = Code/HTMLSerialization.h; sourceTree = "<group>"; };
-		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44E8FEDDFB2B92F45A0C77AD4444490F /* HTMLQuirksMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLQuirksMode.h; path = Code/HTMLQuirksMode.h; sourceTree = "<group>"; };
 		45399E80A617E2D25FF8C8B15C393035 /* HTMLSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLSelector.h; path = Code/HTMLSelector.h; sourceTree = "<group>"; };
-		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		4F43A92765A324027A89C763377A5799 /* HTMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLNode.h; path = Code/HTMLNode.h; sourceTree = "<group>"; };
 		4F463F4C7B0A376B996E3920581FC406 /* NSString+HTMLEntities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTMLEntities.h"; path = "Code/NSString+HTMLEntities.h"; sourceTree = "<group>"; };
 		5331F943F22CB413E5F7F5E5977B958B /* HTMLTextNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLTextNode.m; path = Code/HTMLTextNode.m; sourceTree = "<group>"; };
-		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		69F59558908BCF1324982ECF61A27DF8 /* HTMLReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMLReader-dummy.m"; sourceTree = "<group>"; };
 		6ADC7A410F516D9A7492DEAC0967C5F8 /* NSString+HTMLEntities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTMLEntities.m"; path = "Code/NSString+HTMLEntities.m"; sourceTree = "<group>"; };
 		6C78AAB0700CBA2C9B9FCAD81658F106 /* HTMLReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMLReader-prefix.pch"; sourceTree = "<group>"; };
 		6DC16B8E0B48DB7CD0137B008A0384E0 /* HTMLTreeEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLTreeEnumerator.m; path = Code/HTMLTreeEnumerator.m; sourceTree = "<group>"; };
+		718E4BB1AB41729F84BC2F8A01FD17D4 /* Pods-Forecast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Forecast-acknowledgements.plist"; sourceTree = "<group>"; };
 		749764AA6A6F7223C4F71AF8804B3795 /* HTMLOrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLOrderedDictionary.m; path = Code/HTMLOrderedDictionary.m; sourceTree = "<group>"; };
-		8244BE70F65C066C2C5D76F602E74932 /* libHTMLReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTMLReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DF92280BBF99A3E7D1A85DA108ED9C /* Pods-Forecast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Forecast-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84610730A254BC6ABE13EF4AE21416CB /* HTMLSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLSerialization.m; path = Code/HTMLSerialization.m; sourceTree = "<group>"; };
 		8A6D6848164C82CA8E6D16E59B43FA86 /* HTMLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLEncoding.h; path = Code/HTMLEncoding.h; sourceTree = "<group>"; };
 		8B28153668D8A27DB3ECC998A484919A /* HTMLOrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLOrderedDictionary.h; path = Code/HTMLOrderedDictionary.h; sourceTree = "<group>"; };
 		8FC20330C198B93F1E20CA7BEC45DD35 /* HTMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLElement.m; path = Code/HTMLElement.m; sourceTree = "<group>"; };
 		911AC75DC6D25948F1CF8BC794EB0462 /* HTMLDocumentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLDocumentType.h; path = Code/HTMLDocumentType.h; sourceTree = "<group>"; };
+		916A6DD2128977DB405F835940ADC217 /* libPods-Forecast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Forecast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9652EFF77DF05124BED8A47B7705933E /* HTMLPreprocessedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLPreprocessedInputStream.m; path = Code/HTMLPreprocessedInputStream.m; sourceTree = "<group>"; };
-		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		9906B103AB71FB845EDF1F721A82C159 /* HTMLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLEncoding.m; path = Code/HTMLEncoding.m; sourceTree = "<group>"; };
-		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		A804753858ECFA4BD0AB4865C043BEDC /* HTMLTokenizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLTokenizer.m; path = Code/HTMLTokenizer.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCAD729497CF64966FAA44E10A33D439 /* libHTMLReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTMLReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11FB113AA736A5024A4BEF448488C11 /* HTMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLParser.h; path = Code/HTMLParser.h; sourceTree = "<group>"; };
 		C1C21396194365AC39E3722B517E83E4 /* HTMLEntities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLEntities.h; path = Code/HTMLEntities.h; sourceTree = "<group>"; };
 		C8D8B42B3DBBDEC970F51DB45A896F9E /* HTMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLParser.m; path = Code/HTMLParser.m; sourceTree = "<group>"; };
+		CB487AFCC642A82A2409FB2A73559EFD /* Pods-Forecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Forecast.release.xcconfig"; sourceTree = "<group>"; };
 		D0545F77584AB87B57B7E829ADB1E4C4 /* HTMLNamespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLNamespace.h; path = Code/HTMLNamespace.h; sourceTree = "<group>"; };
 		D51577C5C2D53A938A83EA3725FF67DB /* HTMLSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLSupport.h; path = Code/HTMLSupport.h; sourceTree = "<group>"; };
 		D57A51B810385674C26A14ECFEFA73CF /* HTMLEntities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLEntities.m; path = Code/HTMLEntities.m; sourceTree = "<group>"; };
 		D9665135CFAD7BFDAB1BA7678C685B03 /* HTMLComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLComment.m; path = Code/HTMLComment.m; sourceTree = "<group>"; };
 		DA1748B856AA8D11B732E870A7D219B2 /* HTMLReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMLReader.xcconfig; sourceTree = "<group>"; };
 		E08CE347829816E7BEE85B708DE90132 /* HTMLString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLString.h; path = Code/HTMLString.h; sourceTree = "<group>"; };
+		E7CCA07E394C250DB327725897CB3FC2 /* Pods-Forecast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Forecast-dummy.m"; sourceTree = "<group>"; };
 		EBD4033F7B71456B70076349F64F7FDD /* HTMLPreprocessedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLPreprocessedInputStream.h; path = Code/HTMLPreprocessedInputStream.h; sourceTree = "<group>"; };
 		EEB21EDDEB78062F13D68F406DB7A4D3 /* HTMLString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLString.m; path = Code/HTMLString.m; sourceTree = "<group>"; };
 		F18797904ADC12F24AA1335BA82E97BA /* HTMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLDocument.m; path = Code/HTMLDocument.m; sourceTree = "<group>"; };
+		F4F4CDCEAFFECB3630081B41CDFBCECA /* Pods-Forecast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Forecast-resources.sh"; sourceTree = "<group>"; };
 		F543EB95F82F0B35A5DBAC8F77787D63 /* HTMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLReader.h; path = Code/HTMLReader.h; sourceTree = "<group>"; };
 		FA2BA3142F1BCA19C2D28F343C249D20 /* HTMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLNode.m; path = Code/HTMLNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1289EB4B58765AE45C19C69D0A680AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AAFBD02CB25688C79451EF8BFFB208 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5308F2F84E3DA5889F9DBAFD368A833F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,25 +135,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54604434C14BD8275550C0F1DA04FA0E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D795249D13B8494012722F5E08B7492 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,8 +160,8 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
 				8C4046E2AA91C439559C8B9BFD4EBE34 /* Pods */,
-				C0A17A7E4401279A5DCBBD0CEEEBF38D /* Products */,
-				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+				A2BE4CADEAA582E68426E68A6C46B889 /* Products */,
+				A4B0906D3B074C3891B5D5277BCAEB28 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,28 +173,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+		946FBBD9ADE32E4C0A606D9AAD177CA0 /* Pods-Forecast */ = {
 			isa = PBXGroup;
 			children = (
-				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
-				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
-				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
-				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
-				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
-				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
-				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+				79DF92280BBF99A3E7D1A85DA108ED9C /* Pods-Forecast-acknowledgements.markdown */,
+				718E4BB1AB41729F84BC2F8A01FD17D4 /* Pods-Forecast-acknowledgements.plist */,
+				E7CCA07E394C250DB327725897CB3FC2 /* Pods-Forecast-dummy.m */,
+				020DE4FD606C3D94D50ADEE85F05D583 /* Pods-Forecast-frameworks.sh */,
+				F4F4CDCEAFFECB3630081B41CDFBCECA /* Pods-Forecast-resources.sh */,
+				2273A28D1E7884A08D0BD35BBCE6F42D /* Pods-Forecast.debug.xcconfig */,
+				CB487AFCC642A82A2409FB2A73559EFD /* Pods-Forecast.release.xcconfig */,
 			);
-			name = Pods;
-			path = "Target Support Files/Pods";
+			name = "Pods-Forecast";
+			path = "Target Support Files/Pods-Forecast";
 			sourceTree = "<group>";
 		};
-		C0A17A7E4401279A5DCBBD0CEEEBF38D /* Products */ = {
+		A2BE4CADEAA582E68426E68A6C46B889 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8244BE70F65C066C2C5D76F602E74932 /* libHTMLReader.a */,
-				1EF0148711C56A83ED7FC6E7F1CB6F9F /* libPods.a */,
+				BCAD729497CF64966FAA44E10A33D439 /* libHTMLReader.a */,
+				916A6DD2128977DB405F835940ADC217 /* libPods-Forecast.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B0906D3B074C3891B5D5277BCAEB28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				946FBBD9ADE32E4C0A606D9AAD177CA0 /* Pods-Forecast */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		EA7A7DAEE1882E711D6774F739BFEFB9 /* HTMLReader */ = {
@@ -298,23 +298,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8F4AA814B5C2A761EDC3010F8B913958 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28C9088C28068BC06CE9D8B1F3132533 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				D88217F9D924A8D91D31CC65CABD1694 /* Sources */,
-				54604434C14BD8275550C0F1DA04FA0E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7E294795121D96D873E2DA176BB590B /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 1EF0148711C56A83ED7FC6E7F1CB6F9F /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		E8EE6E444E93E358D850374D4AEAE64A /* HTMLReader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A750B0E8A0E7D53B0FF9CF8EDC7D2992 /* Build configuration list for PBXNativeTarget "HTMLReader" */;
@@ -329,7 +312,24 @@
 			);
 			name = HTMLReader;
 			productName = HTMLReader;
-			productReference = 8244BE70F65C066C2C5D76F602E74932 /* libHTMLReader.a */;
+			productReference = BCAD729497CF64966FAA44E10A33D439 /* libHTMLReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9C1B44ED3838CC103562DEF69917F25 /* Pods-Forecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0958C89D520002803562DED1F902DEC4 /* Build configuration list for PBXNativeTarget "Pods-Forecast" */;
+			buildPhases = (
+				7E03F4DB4D478D8BA06B0CC64ADE9A7A /* Sources */,
+				1289EB4B58765AE45C19C69D0A680AA4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB66D4C19CD39AF12F4DBE35E12735E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Forecast";
+			productName = "Pods-Forecast";
+			productReference = 916A6DD2128977DB405F835940ADC217 /* libPods-Forecast.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +338,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -349,12 +349,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C0A17A7E4401279A5DCBBD0CEEEBF38D /* Products */;
+			productRefGroup = A2BE4CADEAA582E68426E68A6C46B889 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E8EE6E444E93E358D850374D4AEAE64A /* HTMLReader */,
-				8F4AA814B5C2A761EDC3010F8B913958 /* Pods */,
+				E9C1B44ED3838CC103562DEF69917F25 /* Pods-Forecast */,
 			);
 		};
 /* End PBXProject section */
@@ -385,36 +385,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D88217F9D924A8D91D31CC65CABD1694 /* Sources */ = {
+		7E03F4DB4D478D8BA06B0CC64ADE9A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F039A939470B3351B9F63FC997C6ABF4 /* Pods-dummy.m in Sources */,
+				B5BC386974233945C220D29104FD13A1 /* Pods-Forecast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F7E294795121D96D873E2DA176BB590B /* PBXTargetDependency */ = {
+		EB66D4C19CD39AF12F4DBE35E12735E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTMLReader;
 			target = E8EE6E444E93E358D850374D4AEAE64A /* HTMLReader */;
-			targetProxy = 73A4F2A2B4CD2B0974119BE7718BBE13 /* PBXContainerItemProxy */;
+			targetProxy = 470EDF36B9251EA1CF06ABE6E05558CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BE2259EE3C4A46D245DB36FC9A7DF91 /* Release */ = {
+		3BEA9014FB73A967D189785D76B9AD81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA1748B856AA8D11B732E870A7D219B2 /* HTMLReader.xcconfig */;
 			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/HTMLReader/HTMLReader-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -422,48 +424,9 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
 			};
-			name = Release;
-		};
-		10B2EE21B5D67EE2C819831CCC43832B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
 			name = Debug;
 		};
-		7C07D96CC7C445E83983A6C6420BC692 /* Release */ = {
+		4907EAB0868E73CCC72FCDDB6921349C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -483,7 +446,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -497,33 +463,103 @@
 			};
 			name = Release;
 		};
-		95B10EE9E4473F2F69CDA180DC853D50 /* Debug */ = {
+		69C012360A4D0A1DA8FA7EB6E8924B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B08411385FC9905CFD6965699A1F0523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2273A28D1E7884A08D0BD35BBCE6F42D /* Pods-Forecast.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		D39CCE414E14F06D789306F679763970 /* Debug */ = {
+		C3488AAA956EF329E1C3D0CF2E044F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB487AFCC642A82A2409FB2A73559EFD /* Pods-Forecast.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C6754F38BE113850291F13A6D6B4AF46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA1748B856AA8D11B732E870A7D219B2 /* HTMLReader.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/HTMLReader/HTMLReader-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -531,35 +567,16 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
 			};
-			name = Debug;
-		};
-		F5FC3AC882FD16CA64EA221D0EB633AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28C9088C28068BC06CE9D8B1F3132533 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		0958C89D520002803562DED1F902DEC4 /* Build configuration list for PBXNativeTarget "Pods-Forecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95B10EE9E4473F2F69CDA180DC853D50 /* Debug */,
-				F5FC3AC882FD16CA64EA221D0EB633AC /* Release */,
+				B08411385FC9905CFD6965699A1F0523 /* Debug */,
+				C3488AAA956EF329E1C3D0CF2E044F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -567,8 +584,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10B2EE21B5D67EE2C819831CCC43832B /* Debug */,
-				7C07D96CC7C445E83983A6C6420BC692 /* Release */,
+				69C012360A4D0A1DA8FA7EB6E8924B17 /* Debug */,
+				4907EAB0868E73CCC72FCDDB6921349C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -576,8 +593,8 @@
 		A750B0E8A0E7D53B0FF9CF8EDC7D2992 /* Build configuration list for PBXNativeTarget "HTMLReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D39CCE414E14F06D789306F679763970 /* Debug */,
-				0BE2259EE3C4A46D245DB36FC9A7DF91 /* Release */,
+				3BEA9014FB73A967D189785D76B9AD81 /* Debug */,
+				C6754F38BE113850291F13A6D6B4AF46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
